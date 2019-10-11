@@ -1,0 +1,197 @@
+@charset "UTF-8";
+
+.clearfix::after{
+	content:"";
+	display: block;
+	clear:both;
+}
+
+.background{
+	 width: 100%;
+    height: auto;
+    overflow-x:hidden;
+    overflow-y:hidden;
+}
+
+#errorPrompt{
+    color: #ed9347;
+    font-size: 12px;
+    position: absolute;
+    left: 30px;
+    top:10px;
+    display: none;
+}
+
+.main .nav{
+	border: 2px solid black;
+	height:30px;
+	background:#e5e5e5;
+	/* 水平居中 */
+	text-align: right;
+	line-height: 30px;
+	border-left:3px solid black ;
+	padding-right: 200px;	
+}
+
+.main .nav:nth-child(1){
+	border: none;
+}
+
+.main .nav a{
+	border-right:3px solid black;
+}
+
+.main .container .img-word .img-left{
+	float: left;
+	
+}
+
+.main .container .img-word .word-right{
+	float: left;
+	height:40px;
+	height:40px;
+	line-height: 30px;
+	text-align: center;
+	border-left: 2px solid black;
+	margin-top:25px;
+}
+
+.main .container .img-word .word-right a{
+	font-size:35px;
+}
+
+.main .container .img-word{
+	/* 在这里如果不设置宽度的话宽度为0 */
+	height:75px;
+	width:auto;
+	boder-top:2px solid black;
+	border-bottom:10px solid #E5E5E5;
+}
+
+.main .container .background img{
+	margin:50px 220px;
+}
+
+.form{
+	left: 1100px;
+	position: absolute;
+	width: 300px;
+	height: 280px;
+	top: 150px;
+	margin-top: 100px;
+	background-color:#fff;
+}
+
+.form .form-item{
+	margin: 25px;
+}
+
+input[type="text"],input[type="password"]{
+	border: 1px solid #dcdfe6;
+	width: 100%;
+	box-sizing: border-box;
+	border-radius: 4px;
+	height: 40px;
+	text-indent: 1em;
+	font-size: 14px;
+	color: #606266;
+}
+
+input[type="text"]:hover,input[type="password"]:hover{
+	border-color: #c0c4cc;
+}
+
+input[type="text"]::placeholder,input[type="password"]::placeholder{
+	color: #c0c4cc;
+}
+
+input[type="text"]:focus,input[type="password"]:focus{
+	border-color: #00a1d6;
+}
+
+body {
+	color:grey
+}
+
+button{
+	height: 40px;
+	background-color: #00A1D6;
+	border-radius: 4px;
+	font-size: 14px;
+	color: #fff;
+	cursor: pointer;
+}
+
+.form .readme{
+	margin:-10px 0;
+	font-size: 15px;
+}
+
+.form a{
+	color: #00A1D6;
+}
+
+button.fill{
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.txtright{
+	text-align: right;
+}
+
+
+.main .container footer .three-item{
+	float:left;
+	margin-left:550px;
+}
+
+.main .container footer .three-item a{
+	font-size:20px ;
+	height: 20px;
+	line-height: 20px;
+	border-left: 2px solid #E5E5E5;
+	margin-left: 70px;
+}
+
+.main .container footer .three-item a:nth-child(1){
+	border-left:none;
+}
+
+.main .container footer .three-item img{
+	/* 自动匹配文字高度 */
+	vertical-align: middle;
+}
+
+.main .container footer .footer-bottom .left nav{
+	float=left;
+		margin-left:90px;
+		text-align: center;
+}
+
+.main .container footer .footer-bottom .left nav a{
+	border-right: 2px solid #DCDFE6;
+}
+
+.main .container footer .footer-bottom .left-bottom{
+	text-align: center;
+}
+
+.main .container footer .footer-bottom .left{
+	left:348px;
+	top:760px;
+	border-right: 2px solid #E5E5E5;
+}
+
+.main .container footer .right .right-l {
+	float:left;
+}
+
+.main .container footer .right .right-r {
+	float:left;
+}
+
+.main .container footer .right{
+	left:1020px;
+	top:780px;
+}
